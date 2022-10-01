@@ -1,0 +1,156 @@
+body{
+    margin: 6% 8%;
+}
+
+/*contenedor 1*/
+.title{
+    font-size: 350%;
+    font-family:'Bodoni MT';
+    margin: 1% 0;
+}
+
+.text{
+    font-size: 110%;
+    font-family: 'Corbel';
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 0 4% 0;
+}
+
+/*Contenedor 2*/
+.division{
+    display: grid;
+    grid-template-columns: 4% auto;
+    align-items:baseline;
+}
+
+
+input{
+    width: 20px;
+    height: 20px;
+    margin: 10px 0 10px 0;
+}
+
+.title2{
+    font-size: 200%;
+    font-family: 'Hoefler Text';
+}
+
+.subtitle{
+    font-size: 160%;
+    font-family: 'Gabriola';
+    font-style: italic;
+}
+
+.text2{
+    font-size: 115%;
+    font-family: 'Bahnschrift Light';
+    color: rgb(54, 52, 52);
+}
+
+/*Columna de Contenedor 2 y 3*/
+/*nota*/
+/*Es mas facil utilizar Grid para crear estructuras;
+Para definir filas, columnas.
+
+Y Flex Box es mas facil utilizarlo para acomodar elementos y espaciado de caja(Contenedores)
+dentro de elementos*/
+.card{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 180px;
+}
+
+/*Contenedor 3*/
+.contenedor3{
+    margin: 15% 0%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: none;
+    box-shadow: 0px 1px 7px rgb(58, 57, 57);
+    border-radius: 5%;
+}
+
+.section{
+    display: flex;
+    width: 80%;
+    max-width: 400px;
+    margin: auto;
+    gap: 25px;
+    align-content: center;
+    justify-content: center;
+}
+
+.filas{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+svg{
+    width: 40px;
+}
+
+.icons{
+    width: 35px;
+}
+
+.text4{
+    font-family: 'Candara';
+    color: rgb(160, 155, 155);
+    font-size: 14px;
+}
+
+.text5{
+    font-family: 'Bahnschrift';
+    font-size: 17px;
+    color: rgb(37, 37, 34);
+}
+
+.text5:hover, svg:hover{
+    color: orange;  
+}
+/*Contenedor 4*/
+.division2{
+    width: 60%;
+    display: grid;
+    grid-template-columns: 6% auto;
+    align-items:baseline;
+}
+
+.text3{
+    font-size: 109%;
+    font-family: 'Verdana';
+    color: rgb(49, 43, 43);
+}
+
+.numerales{
+    list-style: numbers;
+    width: 30px;
+    height: 30px;
+    border-radius: 20%;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+    color: white;
+    background-color: rgb(241, 135, 14);
+    font-family: 'Lucida Sans Typewriter';
+}
+
+.enlace{
+    font-size: 1.1rem;
+    font-family: 'Lucida Sans';
+    color: rgb(197, 197, 197);
+    margin: 5% 0 8.5% 0;
+}
+/*Pie de Pagina*/
+footer{
+    text-align: center;
+    font-size: 17px;
+    font-family:'Century Gothic' ;
+    color: rgb(65, 62, 62);
+}
